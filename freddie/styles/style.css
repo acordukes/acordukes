@@ -1,0 +1,50 @@
+html {
+	font-size: 30px; /* px means 'pixels': the base font size is now 10 pixels high  */
+	font-family: 'Kalam', cursive; /* this should be the rest of the output you got from Google fonts */
+	background-color: #F4B8B8;
+	color: #230505;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 0 40px 40px 40px;
+	border: 50px solid;
+	border-color: #B41111;
+}
+
+div {border-color: #B41111;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+	padding: 2px;
+}
+
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	margin: 0 auto;
+	color: #230505;
+	text-shadow: 3px 3px 3px white;
+}
+
+p {
+	text-align: center;
+	line-height: 1.2;
+}
+
+ul {
+	text-align: center;
+	list-style: inside;
+	padding: 0 0;
+}
